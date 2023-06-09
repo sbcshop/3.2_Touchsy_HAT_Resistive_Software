@@ -27,3 +27,10 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 - Storage Temperature is -30℃~80℃
 
 ## Pinout:
+<img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20hat%20pinout.jpg">
+
+- (1) 5-Way Joystick
+- (2) & (4) programmable buttons
+- (3) 3.2” Resistive Touch Display
+- (5) Buzzer
+- (6) GPIO Header (to connect Pi and other SBC’s)
