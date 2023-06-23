@@ -37,6 +37,16 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 
 
 
+## Resources
+**3.2" Touchsy HAT Resistive :** 
+  * [Schematic](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Hardware/blob/main/Design%20Data/Sch%203.2%20INCH%20Touchsy%20HAT(Resistive).pdf)
+  * [Step File](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Hardware/blob/main/Mechanical%20Data/step%203.2%20INCH%20Touchsy%20HAT(Resistive)%2012042023.step)
+  * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Hardware)
+    
+**Other Related :**
+  * [Getting Started With Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+  * [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
+
 
 
 ## Related Products
