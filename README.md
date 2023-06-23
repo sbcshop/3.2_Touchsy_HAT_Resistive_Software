@@ -70,8 +70,6 @@ Here are the features and specifications that make Touchsy HAT a unique and must
   | 5V  | 5V Input Supply |
   | GND | Common Supply Ground pin |
   
-## Setup Raspberry Pi for 3.2" Touchsy HAT Resistive Display 
-
 
 ## Resources
 **3.2" Touchsy HAT Resistive :** 
