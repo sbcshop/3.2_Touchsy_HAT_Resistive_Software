@@ -35,7 +35,7 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 - (5) Buzzer
 - (6) GPIO Header (to connect Pi and other SBC’s)
 
-
+## Setup Raspberry Pi for 3.2" Touchsy HAT Resistive Display 
 
 ## Resources
 **3.2" Touchsy HAT Resistive :** 
