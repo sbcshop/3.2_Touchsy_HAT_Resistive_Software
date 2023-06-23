@@ -26,7 +26,7 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 - Operating Temperature is -20℃~70℃
 - Storage Temperature is -30℃~80℃
 
-## Pinout:
+## Hardware Overview:
 <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20hat%20pinout.jpg">
 
 - (1) 5-Way Joystick
@@ -35,7 +35,43 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 - (5) Buzzer
 - (6) GPIO Header (to connect Pi and other SBC’s)
 
+**HAT and Raspberry Pi Pins Mapping Detail**
+  
+  <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20Hat%20with%20RPi%20pin%20Map.png">
+
+  _Display and Touch Control Pins:_
+  | Symbol | Description |
+  |---|---|
+  | CS0 | Display control Chip select pin for SPI bus interfacing |
+  | CS1  | Touch control Chip select pin for SPI bus interfacing | Clock pin for SPI interfacing
+  | CLK | SPI Clock Pin for both Touch & Display |
+  | D/C | Data/Command pin of Display, Logic HIGH for Data and Logic LOW for Command   |
+  | DIN  | Data In (MOSI) pin to both Display and Touch for SPI interfacing |
+  | DOUT | Touch control Data Out (MISO) pin for SPI interfacing |
+  | LCD_IRQ | Touch Controller Interrupt pin, Logic LOW when touch detected |
+  | RESET | Display Reset pin |
+  | BL | BackLight for Display panel |
+  
+   _Actuator Pins:_
+  | Symbol | Description | 
+  |---|---|
+  | BUZZER  | Buzzer device control pin | 
+  | BT1 | Programmable Button 1 |
+  | BT2 | Programmable Button 2 |
+  | JOY RIGHT | 5-WAY Joy Stick Switch pin|
+  | JOY UP | 5-WAY Joy Stick Switch pin|
+  | JOY DOWN | 5-WAY Joy Stick Switch pin|
+  | JOY SEL | 5-WAY Joy Stick Switch pin|
+  | JOY LEFT | 5-WAY Joy Stick Switch pin|
+  
+   _Power Pins:_
+  | Symbol | Description | 
+  |---|---|
+  | 5V  | 5V Input Supply |
+  | GND | Common Supply Ground pin |
+  
 ## Setup Raspberry Pi for 3.2" Touchsy HAT Resistive Display 
+
 
 ## Resources
 **3.2" Touchsy HAT Resistive :** 
@@ -46,7 +82,6 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 **Other Related :**
   * [Getting Started With Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
   * [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
-
 
 
 ## Related Products
