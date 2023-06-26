@@ -102,7 +102,7 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 
     <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t3.png" width="641" height="404">
     
-    Note: We have kept default angle of screen 0 degree, you can change as 90 or 270 as per requirement. E.g.shown below
+    Note: We have kept default angle of screen 0 degree, you can change as 90, 180 or 270 as per requirement. E.g.shown below
     ```
     sudo ./Touchsy_HAT 90
     ```
