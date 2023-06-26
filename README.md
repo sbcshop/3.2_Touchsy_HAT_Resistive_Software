@@ -69,8 +69,50 @@ Here are the features and specifications that make Touchsy HAT a unique and must
   |---|---|
   | 5V  | 5V Input Supply |
   | GND | Common Supply Ground pin |
-  
 
+## Setup steps to Configure Touchsy HAT for Raspberry Pi
+### Step 1: Download and install Raspberry OS to Pi
+  - Follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS install 
+  - Now you can either use Screen and Keyboard to access Pi or Setup to use [remotely with VNC viewer](https://projects.raspberrypi.org/en/projects/infrared-bird-box/13).
+
+### Step 2: Configure Touchsy HAT
+  - Connect Touchsy HAT to raspberry Pi as shown in [pin mapping section](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/raw/main/images/Touchsy%20Hat%20with%20RPi%20pin%20Map.png)
+  - Download this github into Raspberry Pi by typing following command into Terminal
+    ```
+    git clone https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/
+    ```
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g1.png" width="641" height="404">
+  - Check if folder downloaded, then just rename folder Touchsy_HAT as shown in below images
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g2.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g3.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g4.png" width="641" height="404">
+  - Open Terminal and run following commands to setup
+    ```
+    cd Touchsy_HAT
+    ```
+    ```
+    sudo chmod 777 *
+    ```
+    ```
+    sudo ./Touchsy_HAT 0
+    ```
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t1.png" width="641" height="404">
+   
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t2.png" width="641" height="404">
+
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t3.png" width="641" height="404">
+    
+    Note: We have kept default angle of screen 0 degree, you can change as 90 or 270 as per requirement. E.g.shown below
+    ```
+    sudo ./Touchsy_HAT 90
+    ```
+
+    Raspberry Pi will restart after this command and screen resolution will be change as per HAT, 240 x 320 pixel, shown below.
+    
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t4.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t5.png" width="641" height="404">
+
+    
 ## Resources
 **3.2" Touchsy HAT Resistive :** 
   * [Schematic](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Hardware/blob/main/Design%20Data/Sch%203.2%20INCH%20Touchsy%20HAT(Resistive).pdf)
