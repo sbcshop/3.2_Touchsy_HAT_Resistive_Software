@@ -81,11 +81,11 @@ Here are the features and specifications that make Touchsy HAT a unique and must
     ```
     git clone https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/
     ```
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g1.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g1.png" width="533" height="336">
   - Check if folder downloaded, then just rename folder Touchsy_HAT as shown in below images
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g2.png" width="641" height="404">
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g3.png" width="641" height="404">
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g4.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g2.png" width="533" height="336">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g3.png" width="533" height="336">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/g4.png" width="533" height="336">
   - Open Terminal and run following commands to setup
     ```
     cd Touchsy_HAT
@@ -96,11 +96,11 @@ Here are the features and specifications that make Touchsy HAT a unique and must
     ```
     sudo ./Touchsy_HAT 0
     ```
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t1.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t1.png" width="533" height="336">
    
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t2.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t2.png" width="533" height="336">
 
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t3.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t3.png" width="533" height="336">
     
     Note: We have kept default angle of screen 0 degree, you can change as 90, 180 or 270 as per requirement. E.g.shown below
     ```
@@ -109,9 +109,14 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 
     Raspberry Pi will restart after this command and screen resolution will be change as per HAT, 240 x 320 pixel, shown below.
     
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t4.png" width="641" height="404">
-    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t5.png" width="641" height="404">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t4.png" width="533" height="336">
+    <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/t5.png" width="533" height="336">
 
+## Testing 5-way Switch, Programmable Button & Buzzer  
+  - You will find example python code as [Button_Buzzer_demo.py](https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/Button_Buzzer_demo.py) in this repo. 
+  - Run this code using default python IDE or thonny IDE. This helps to check basic working demo of programmable switches, 5-way switch and Buzzer available on Touchsy HAT. So you can use them to build some automation or add additional functionality to your project.
+    
+    <img src = "https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/run_democode.png" width="812" height="413">
     
 ## Resources
 **3.2" Touchsy HAT Resistive :** 
