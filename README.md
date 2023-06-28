@@ -19,7 +19,7 @@ Here are the features and specifications that make Touchsy HAT a unique and must
 - Operating voltage 3.3V 
 - 3.2” Display with resolution 320 × 240
 - XPT2046 resistive touch controller 
-- ILI934 Display Driver
+- ILI9341 Display Driver
 - Appearance: RGB
 - Colors: 65K/262K
 - Viewing Angle(in degree): Left:70, Right:70, Up:50, Down:70 
