@@ -4,7 +4,7 @@ Touchsy HAT - the perfect solution for users who want to mount the display on th
 
 A HAT for Raspberry Pi, a Raspberry Pi Pico-based display module, an ESP-32-based display module, and a display breakout to address additional single-board computers are available. These models are available in both capacitive and resistive versions.
 
-<img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20banner.jpg">
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/TOUCHSYHAT_BANNER.jpg?v=1688107978">
 
 Here are the features and specifications that make Touchsy HAT a unique and must-have accessory for Raspberry Pi 4, 3, and other compatible single-board computers:
 ### Features:
